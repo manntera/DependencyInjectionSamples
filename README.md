@@ -1,6 +1,7 @@
 # Dependency Injection (DI) サンプルコード
 
 このリポジトリは、**Dependency Injection（依存性注入）** の概念を段階的に理解するためのサンプルコードです。
+詳細な解説はZennで行っていますので、[こちら](https://zenn.dev/manntera/articles/437829356d0117)をご覧ください
 
 ## 🎯 目的
 
