@@ -1,0 +1,19 @@
+{
+  "name": "dependency-injection-samples",
+  "version": "1.0.0",
+  "description": "Dependency Injection概念理解のためのサンプルコード",
+  "main": "index.js",
+  "scripts": {
+    "demo:01": "ts-node src/01-without-di/main.ts",
+    "demo:02": "ts-node src/02-basic-di/main.ts",
+    "demo:03": "ts-node src/03-interface-di/main.ts"
+  },
+  "keywords": ["dependency-injection", "typescript", "design-patterns"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
