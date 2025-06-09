@@ -6,11 +6,19 @@
   "scripts": {
     "demo:01": "ts-node src/01-without-di/main.ts",
     "demo:02": "ts-node src/02-basic-di/main.ts",
-    "demo:03": "ts-node src/03-interface-di/main.ts"
+    "demo:03": "ts-node src/03-interface-di/main.ts",
+    "demo:04": "ts-node src/04-complex-manual-di/main.ts",
+    "demo:05": "ts-node src/05-inversify-solution/main.ts",
+    "demo:06": "ts-node src/06-inversify-basics/main.ts",
+    "demo:all": "npm run demo:01 && npm run demo:02 && npm run demo:03 && npm run demo:04 && npm run demo:05 && npm run demo:06"
   },
   "keywords": ["dependency-injection", "typescript", "design-patterns"],
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "inversify": "^6.0.0",
+    "reflect-metadata": "^0.2.2"
+  },
   "devDependencies": {
     "@types/node": "^20.0.0",
     "ts-node": "^10.9.0",
